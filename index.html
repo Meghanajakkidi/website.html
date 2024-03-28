@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRAVELCO</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <div class="body">
+            <div class="container" id="navbar">
+                <div class="navbar">
+                    <nav>
+                        <ul type="none">
+                            <li><a>
+                                    <h2 style="color: green;"><i><img
+                                                src="https://tse1.mm.bing.net/th?id=OIP.kT4FWICoWnNyhtx9sM-s4QHaEo&pid=Api&P=0&h=180"
+                                                class="img">TRAVELCO<br><span
+                                                style=" font-size:15px">YOU
+                                                TRAVEL WE TACKLE</span></i></h2>
+                                </a></li>
+                            <li><a class="content" href="#placescontainer">PLACES</a></li>
+                            <li><a class="content">BLOG</a></li>
+                            <li><a class="content" href="#aboutuscontainer">ABOUT US</a></li>
+                            <li><a class="content" href="#pricescontainer">PRICES</a></li>
+                            <li><a class="content" onclick="signin()">SIGNIN</a></li>
+                        </ul>
+
+                    </nav>
+
+                </div>
+            
+                <div class="contentcontainer">
+                    <h1>TURNING YOUR TRAVEL<br>DREAMS IN TO REALITY</h1>
+                    <h5 style="color:black;"><i>our goal is provide to outstanding service which takes into<br>account
+                            individual your travel requirement</i></span></h5>
+                    <button class="contactbtn" onclick="contact()">CONTACT</button>
+                </div>
+            </div>
+        </header>
+    <section id="aboutuscontainer">
+        <div>
+            <h1 style="text-align: center;font-size: 30px;">WELCOME</h1>
+            <h1 style="color: green;text-align: center;"><i>IT ALL STARTS WITH TRAVELCO</i></h1>
+            <p>TRAVELCO International is an entirely independent travel agency renowned for offering a comprehensive
+                range of travel services since the commencement of its journey.<br> We boast of more than 26 years of
+                substantial experience in the cruises, airline, and travel industry.<br> The collective experience of
+                our highly knowledgeable travel consultants is over 30 years.<br> We leave no stone unturned to provide
+                the best possible services and facilities to our customers and meet their satisfaction level.<br> We
+                strive to achieve excellence by utilizing the best resources when it comes to making requisite
+                arrangements and rendering high-standard and commendable travel services to our esteemed customers.</p>
+            <p>Since the establishment, TRAVELCO International has been playing an instrumental role in helping travel
+                enthusiasts of different age groups explore exotic places around the world.<br> We are involved in
+                providing a full range of travel services for the last 27 years.<br> We take immense pride in our team
+                that comprises highly qualified professionals and has a collective experience of 30 years.
+
+                We have been successfully organizing honeymoon & holiday packages and pilgrimage tours that facilitate
+                tourists and pilgrims significantly in exploring the foreign locations and witnessing the natural
+                beauty, culture, and tradition of every place. We help you book hotels, flights, cruises, and rent cars
+                to enjoy the traveling experience to the fullest.</p>
+        </div>
+    </section>
+    <section id="placescontainer">
+        <h1>PLACES</h1>
+        <h4>EPIC BUCKET LIST PLACES TO ADD TO YOUR NEXT TRAVEL </h4>
+        <input placeholder="SERACH" class="searchinput" readonly>
+        <div class="listcontainer">
+            <h6 onclick="random()">random</h6>
+            <h6 onclick="threestars()">3stars</h6>
+            <h6 onclick="best()">best</h6>
+            <h6>wonders</h6>
+        </div>
+        <div class="randomcontainer" id="randomcontent">
+            <div class="cardcontainer">
+                <img src="https://s3-us-west-2.amazonaws.com/travaa/media-cards/media-card-5bb78e25e1a49a6e5bf4e54d-large.jpg"
+                    width="300px" height="200px">
+                <h5>Taj Mahal</h5>
+                <h6>Agra, India</h6>
+            </div>
+            <div class="cardcontainer">
+                <img src="https://s3-us-west-2.amazonaws.com/travaa/media-cards/media-card-5bbf33b4bd624f1d156cdf25-large.jpg"
+                    width="300px" height="200px">
+                <h5>Aiguille du Midi</h5>
+                <h6>Chamonix, France</h6>
+            </div>
+            <div class="cardcontainer">
+                <img src="https://s3-us-west-2.amazonaws.com/travaa/media-cards/media-card-5bc3050efdba410a841d6759-large.jpg"
+                    width="300px" height="200px">
+                <h5>Mount Kinabalu (and Park)</h5>
+                <h6>Ranau, Malaysia</h6>
+            </div>
+            <div class="cardcontainer">
+                <img src="https://s3-us-west-2.amazonaws.com/travaa/media-cards/media-card-5bb92cfd123af12e75dc40c7-large.jpg"
+                    width="300px" height="200px">
+                <h5>Sagrada Familia</h5>
+                <h6>Barcelona, Spail </h6>
+            </div>
+            <div class="cardcontainer">
+                <img src="https://s3-us-west-2.amazonaws.com/travaa/media-cards/media-card-5bc2fb55fdba410a841d6731-large.jpg"
+                    width="300px" height="200px">
+                <h5>Schloss Neuschwanstein</h5>
+                <h6>Schwangau, Germany</h6>
+            </div>
+            <div class="cardcontainer">
+                <img src="https://s3-us-west-2.amazonaws.com/travaa/media-cards/media-card-5bc33806fdba410a841d6777-large.jpg"
+                    width="300px" height="200px">
+                <h5>Cape Coast</h5>
+                <h6>Ghana</h6>
+            </div>
+            <div class="cardcontainer">
+                <img src="https://s3-us-west-2.amazonaws.com/travaa/media-cards/media-card-5bbde3f6bd624f1d156cde4c-large.jpg"
+                    width="300px" height="200px">
+                <h5>Red Square</h5>
+                <h6>Moskva, Russia</h6>
+            </div>
+            <div class="cardcontainer">
+                <img src="https://s3-us-west-2.amazonaws.com/travaa/media-cards/media-card-5bc2cc23fdba410a841d671f-large.jpg"
+                    width="300px" height="200px">
+                <h5>Walt Disney World</h5>
+                <h6>Orlando, United States</h6>
+            </div>
+        </div>
+
+        <div class="starcontainer" id="starcontent">
+            <div class="cardcontainer">
+                <img src="https://s3-us-west-2.amazonaws.com/travaa/media-cards/media-card-5bc5e821bac2a7689ba05c94-large.jpg"
+                    width="300px" height="200px">
+                <h5>Gorges du Verdon</h5>
+                <h6>Provence-Alpes-Côte d'Azur,France</h6>
+            </div>
+            <div class="cardcontainer">
+                <img src="https://s3-us-west-2.amazonaws.com/travaa/media-cards/media-card-5bc2fa56fdba410a841d672e-large.jpg"
+                    width="300px" height="200px">
+                <h5>Vinales Valley
+                </h5>
+                <h6> Vinales, Cuba</h6>
+            </div>
+            <div class="cardcontainer">
+                <img src="https://s3-us-west-2.amazonaws.com/travaa/media-cards/media-card-5bc3356dfdba410a841d6770-large.jpg"
+                    width="300px" height="200px">
+                <h5>Cristo Redentor
+                </h5>
+                <h6> Rio de Janeiro, Brazil</h6>
+            </div>
+            <div class="cardcontainer">
+                <img src="https://s3-us-west-2.amazonaws.com/travaa/media-cards/media-card-5ae3edb57c38d46e28a4aaed-large.jpg"
+                    width="300px" height="200px">
+                <h5>Gullfoss
+                </h5>
+                <h6> Iceland</h6>
+            </div>
+            <div class="cardcontainer">
+                <img src="https://s3-us-west-2.amazonaws.com/travaa/media-cards/media-card-5bcaec98d2bd3e6554289782-large.jpg"
+                    width="300px" height="200px">
+                <h5>Karnak
+                </h5>
+                <h6> Luxor Governorate, Egypt</h6>
+            </div>
+            <div class="cardcontainer">
+                <img src="https://s3-us-west-2.amazonaws.com/travaa/media-cards/media-card-5bb95464123af12e75dc411e-large.jpg"
+                    width="300px" height="200px">
+                <h5>Charles Bridge
+                </h5>
+                <h6> Hlavní město Praha, Czechia</h6>
+            </div>
+            <div class="cardcontainer">
+                <img src="https://s3-us-west-2.amazonaws.com/travaa/media-cards/media-card-5bc2c68efdba410a841d670e-large.jpg"
+                    width="300px" height="200px">
+                <h5>Mount Koya
+                </h5>
+                <h6>Koya, Japan</h6>
+            </div>
+            <div class="cardcontainer">
+                <img src="https://s3-us-west-2.amazonaws.com/travaa/media-cards/media-card-5bdaa15ba1512e602b101702-large.jpg"
+                    width="300px" height="200px">
+                <h5>Millau Viaduct
+                </h5>
+                <h6>Millau Viaduct
+                    La Bastide-Pradines, France</h6>
+            </div>
+        </div>
+
+        <div class="bestcontainer" id="bestcontent">
+            <div class="cardcontainer">
+                <img src="https://s3-us-west-2.amazonaws.com/travaa/media-cards/media-card-5bd444836fa7f913d3663de2-large.jpg"
+                    width="300px" height="200px">
+                <h5>Bardo National Museum
+                </h5>
+                <h6>Tunis, Tunisia</h6>
+            </div>
+            <div class="cardcontainer">
+                <img src="https://s3-us-west-2.amazonaws.com/travaa/media-cards/media-card-5bcfeb7936ecd6783babb3c0-large.jpg"
+                    width="300px" height="200px">
+                <h5>National Palace Museum
+
+                </h5>
+                <h6>Taipei City, Taiwan </h6>
+            </div>
+            <div class="cardcontainer">
+                <img src="https://s3-us-west-2.amazonaws.com/travaa/media-cards/media-card-5bcafa43d2bd3e65542897b9-large.jpg"
+                    width="300px" height="200px">
+                <h5>Djenne Mosque
+
+                </h5>
+                <h6> Djenne, Mali </h6>
+            </div>
+            <div class="cardcontainer">
+                <img src="https://s3-us-west-2.amazonaws.com/travaa/media-cards/media-card-5bc6009fbac2a7689ba05ce7-large.jpg"
+                    width="300px" height="200px">
+                <h5>Changdeokgung Palace and Huwon
+
+                </h5>
+                <h6>Seoul, South Korea </h6>
+            </div>
+            <div class="cardcontainer">
+                <img src="https://s3-us-west-2.amazonaws.com/travaa/media-cards/media-card-5bcaf971d2bd3e65542897b5-large.jpg"
+                    width="300px" height="200px">
+                <h5>Burj Khalifa
+
+                </h5>
+                <h6> Dubai, United Arab Emirates</h6>
+            </div>
+            <div class="cardcontainer">
+                <img src="https://s3-us-west-2.amazonaws.com/travaa/media-cards/media-card-5bc0818553279a477c5a310c-large.jpg"
+                    width="300px" height="200px">
+                <h5>
+                    Ephesus
+
+                </h5>
+                <h6> İzmir, Turkey</h6>
+            </div>
+            <div class="cardcontainer">
+                <img src="https://s3-us-west-2.amazonaws.com/travaa/media-cards/media-card-5b8e3c04882357574145bbf6-large.jpg"
+                    width="300px" height="200px">
+                <h5>Moldavia Churches
+
+                </h5>
+                <h6> Moldavia, Romania</h6>
+            </div>
+            <div class="cardcontainer">
+                <img src="https://s3-us-west-2.amazonaws.com/travaa/media-cards/media-card-5bd9c453a1512e602b101650-large.jpg"
+                    width="300px" height="200px">
+                <h5>Independence Hall
+
+                </h5>
+                <h6> Philadelphia, United States of America</h6>
+            </div>
+        </div>
+    </section>
+    <section id="pricescontainer">
+        <h1 style="text-align: center;">PRICE PLANS</h1>
+        <p>signups start from free paln all fetures are unlocked when u create more activites and trips share with
+            famaily and friends</p>
+        <div class="pricecontainer">
+            <div class="pricecard">
+                <h1>FREE</h1>
+                <h4>$0</h4>
+                <h5>we all start here</h5>
+                <div> 1 trips </div>
+                <div> 20/activites trips </div>
+            </div>
+            <div class="pricecard">
+                <h1>LITE</h1>
+                <h4>$9/year</h4>
+                <h5>for casual travel,single trip</h5>
+                <div> 1 trips </div>
+                <div> 200/activites trips </div>
+            </div>
+            <div class="pricecard">
+                <h1>STANDARD</h1>
+                <h4>$19/year</h4>
+                <h5>for casual travel,multiple trips</h5>
+                <div> 10 trips</div>
+                <div> 200/activites trips </div>
+            </div>
+            <div class="pricecard">
+                <h1>ADVENTURE</h1>
+                <h4>$30/year</h4>
+                <h5>for epic travel and guides around the world!</h5>
+                <div> 50 trips </div>
+                <div> unlimited trips </div>
+            </div>
+        </div>
+    </section>
+    </div>
+    <div id="formcontainer">
+        <div  class="form">
+            <h1>SIGNIN</h1>
+            <form>
+            <input  type="text" placeholder=" enter your email"><br><br>
+            <input type="text" placeholder="password"><br><br>
+            <button class="sumbitbtn" onclick="sumbit(alert('your response has recorded'))">sumbit</button><br><br>
+            </form>
+            <button class="btn" style="background-color: blue;border-radius: 30%;width: 50px;height: 50px;"><i class="fa-brands fa-facebook"></i></button>
+            <button class="btn" style="background-color:indianred;border-radius: 30%;width: 50px;height: 50px;" ><i class="fa-brands fa-twitter"></i></button>
+            <button class="btn" style="background-color:teal;border-radius: 30%;width: 50px;height: 50px;"><i class="fa-brands fa-google"></i></button>
+        </div>
+        
+    </div>
+   
+
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>

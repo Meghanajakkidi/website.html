@@ -1,0 +1,185 @@
+.navbar ul>li {
+   float: left;
+    margin-left: 5%;
+    margin-right: 5%;
+   
+    
+}
+a{
+    color: white;
+}
+.body {
+    background-image: url(https://wallpapercave.com/wp/wp2004045.jpg);
+    background-repeat: no-repeat;
+    backface-visibility: visible;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+.navbar {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    overflow: hidden;
+   
+}
+
+
+
+.img {
+    width: 50px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.content {
+    font-size: 20px;
+}
+
+.content:hover {
+    color: royalblue;
+}
+
+ul>li:hover {
+    transform: scale(2, 2);
+}
+
+.contactbtn {
+    width: 300px;
+    height: 50px;
+    background-color: royalblue;
+    border-radius: 5%;
+    margin-left: 10%;
+}
+
+.contentcontainer {
+    margin-left: 30%;
+    color: white;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+h1:hover {
+    color: mediumaquamarine;
+}
+
+#placescontainer {
+    text-align: center;
+
+    font-size: 30px;
+}
+
+.searchinput {
+    width: 300px;
+    height: 50px;
+    background-color: lightgray;
+    border: none;
+}
+
+.listcontainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.randomcontainer {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    row-gap: 30px;
+    column-gap: 10px;
+}
+
+.cardcontainer {
+    width: 300px;
+    height: 400px;
+    box-shadow: 2px 2px 2px lightgrey;
+}
+
+.cardcontainer:hover {
+    transform: translate(30px)
+}
+
+.starcontainer {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    row-gap: 30px;
+    column-gap: 10px;
+}
+
+.bestcontainer {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    row-gap: 30px;
+    column-gap: 10px;
+}
+
+.pricecontainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pricecard {
+    width: 300px;
+    height: 400px;
+    background-color: lavender;
+    color: black;
+    box-shadow: 2px 2px 2px lightslategray;
+    font-size: 25px;
+}
+
+
+.pricecard:hover {
+    background-color: darkred;
+}
+
+#aboutuscontainer {
+    background-image: url(https://tse4.mm.bing.net/th?id=OIP.03aw7CrAf2jrhyUuinvS6gHaEo&pid=Api&P=0&h=180);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+p {
+    font-size: 25px;
+}
+#formcontainer{
+    background-image: url(https://wallpapercave.com/wp/wp2004045.jpg);
+    background-repeat: no-repeat;
+    backface-visibility: visible;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    margin-left:30% ;
+    background-color: lightblue;
+    box-shadow: 20px 20px 20px 20px lightgray;
+    height: 300px;
+    width: 500px;
+    text-align: center;
+    border-radius: 10px;
+}
+input{
+    width: 300px;
+    height: 50px;
+    border-radius: 50px;
+    text-align: center;
+}
+.sumbitbtn{
+    width: 300px;
+    height: 50px;
+    background-color: royalblue;
+    border-radius: 50px;
+    text-align: center;
+}
